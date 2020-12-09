@@ -96,13 +96,14 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   margin-bottom: 2.5rem;
+  word-wrap: break-word;
 }
 
 .subtitle_text {
   font-size: 1.5rem;
   word-wrap: break-word;
   max-width: 32rem;
-  margin: 0;
+  margin: 0 auto;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
@@ -120,11 +121,20 @@ a {
   color: white;
 }
 
-a:active{
+a:active {
   color: white;
   text-decoration: none;
 }
 
 a:visited {
   color: white;
+}
+
+@media (max-width: 768px) {
+  .subtitle_text {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
 }

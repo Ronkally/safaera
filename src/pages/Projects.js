@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Projects.css";
 import { motion } from "framer-motion";
-import triangulo from "../images/triangulo.jpg"; // with import
-import sciap from "../images/sciap.jpg"; // with import
+import triangulo from "../images/triangulo1.jpg"; // with import
+import sciap from "../images/sciap1.jpg"; // with import
 import { Link } from "react-router-dom";
 
 function Projects() {

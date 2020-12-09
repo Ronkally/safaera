@@ -10,11 +10,11 @@
 }
 
 .work_photo {
-  height: 420px;
+  height: 320px;
 }
 
 .work_description {
-  height: 420px;
+  height: 320px;
   width: 600px;
   background-color: #444444;
 }
@@ -46,7 +46,7 @@
 }
 
 .work_social {
-  margin-top: 8.5rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -67,12 +67,16 @@
 
   .work_photo,
   .work_description {
-    width: 420px;
+    width: 320px;
     margin: 0 auto;
   }
 
+  .work_description{
+    padding-bottom: 3rem;
+  }
+
   .work_social {
-    margin-top: 5rem;
+    margin-top: .5rem;
   }
 
 }
