@@ -130,6 +130,11 @@ a:visited {
   color: white;
 }
 
+div > i {
+  color: white;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .subtitle_text {
     padding: 1rem 3rem;

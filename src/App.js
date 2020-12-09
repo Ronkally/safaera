@@ -8,7 +8,11 @@ import { AnimatePresence } from "framer-motion";
 const Projects = lazy(() => import("./pages/Projects"));
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/AboutUs"));
-const renderLoader = () => <p>Loading</p>;
+const renderLoader = () => (
+  <div class="fa-3x loader">
+    <i class="fas fa-spinner fa-spin"></i>
+  </div>
+);
 
 function App() {
   return (

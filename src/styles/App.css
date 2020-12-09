@@ -4,6 +4,12 @@
   grid-template-rows: auto 1fr auto;
 }
 
+.loader{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 @media (max-width: 768px) {
   .container {
     min-height: 100vh;
