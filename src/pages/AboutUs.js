@@ -25,7 +25,7 @@ function AboutUs() {
           <p className="description_name gugi">Jacob Munoz Ronkally</p>
           <p className="description_body">
             Junior programmer who specializes in building backend applications
-            with C#, Java, And Python. Has knowledge in NodeJs and .Net Core
+            with C#, Java and Python. Has knowledge in NodeJs and .Net Core
           </p>
           <p className="description_social">
             <Link>
