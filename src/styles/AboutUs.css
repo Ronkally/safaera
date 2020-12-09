@@ -1,0 +1,169 @@
+.about {
+  background-color: white;
+  box-shadow: inset 0px 4px 10px rgba(50, 50, 50, 0.75);
+}
+
+/* Members info css */
+.about_members,
+.about_members_reverse,
+.about_contact {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.member_photo {
+  height: 320px;
+}
+
+.member_description {
+  height: 320px;
+  width: 400px;
+  background-color: #444444;
+}
+
+.member_description,
+.member_photo {
+  -webkit-box-shadow: 4px 1px 15px 4px rgba(0, 0, 0, 0.78);
+  box-shadow: 4px 1px 15px 4px rgba(0, 0, 0, 0.78);
+}
+
+.description_name {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.description_body {
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 20rem;
+  font-size: 1.1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word;
+}
+
+.description_social {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.description_social > a {
+  padding: 10px;
+}
+
+.description_social > a:hover {
+  color: #bdc3c7;
+  transition: 0.5s;
+}
+
+/* contact css */
+
+.about_contact {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.contact_text_title,
+.contact_text_body {
+  color: black;
+}
+
+.contact_text_title {
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+}
+
+.contact_text_body {
+  max-width: 300px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0 1rem;
+  word-wrap: break-word;
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 0.5px solid black;
+}
+
+textarea {
+  resize: none;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.ghost_button_black {
+  margin-top: 0.8rem;
+  padding: 0.4rem 1.5rem;
+  color: black;
+  background-color: white;
+  border: 0.5px solid black;
+  font-size: 1.2rem;
+  border-radius: 999px;
+  transition: 0.5s;
+}
+
+.ghost_button_black:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .about_members {
+    flex-direction: column-reverse;
+  }
+
+  .about_members_reverse,
+  .about_contact {
+    flex-direction: column;
+  }
+
+  .member_photo,
+  .member_description {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .about_title {
+    font-size: 2rem;
+  }
+
+  .contact_text_body {
+    max-width: 72%;
+    font-size: 1.5rem;
+  }
+
+  .subtitle_text {
+    padding: 1rem 4.5rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .description_body {
+    text-align: left;
+  }
+
+  .contact_text_body,
+  .contact_form {
+    padding: 1rem;
+    margin: 0 auto;
+  }
+}

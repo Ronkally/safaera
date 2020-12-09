@@ -1,0 +1,14 @@
+.footer {
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer > a {
+  margin: 0 2rem;
+}
+
+.footer > a:hover {
+  color: #bdc3c7;
+  transition: .5s;
+}
